@@ -1,0 +1,30 @@
+.links_wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .btn {
+    width: fit-content;
+    text-align: center;
+    padding: 8px 16px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight: 600;
+
+    &:hover {
+      transition: 0.5s;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+    }
+    &.red {
+      background-color: red;
+    }
+    &.white {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  }
+}
